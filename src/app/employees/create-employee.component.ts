@@ -45,10 +45,10 @@ export class CreateEmployeeComponent implements OnInit {
 
       });
    }
-
+ 
   ngOnInit() {
   }
   saveEmployee(newEmployee: Employee): void {
-    console.log(newEmployee);
+    this.employee = newEmployee;
   }
 }
