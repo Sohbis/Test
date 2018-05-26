@@ -1,8 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { NgForm } from '@angular/forms';
-import { Department } from '../Model/department.model';
+import { Department } from '../Model/department';
 import {BsDatepickerConfig} from 'ngx-bootstrap/datepicker';
-import { Employee } from '../Model/employee.model';
+import { Employee } from '../Model/employee';
 
 @Component({
   selector: 'app-create-employee',
@@ -45,7 +45,7 @@ export class CreateEmployeeComponent implements OnInit {
 
       });
    }
- 
+
   ngOnInit() {
   }
   saveEmployee(newEmployee: Employee): void {
