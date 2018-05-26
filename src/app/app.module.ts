@@ -7,8 +7,7 @@ import { ListEmployeesComponent } from './employees/list-employees.component';
 import { CreateEmployeeComponent } from './employees/create-employee.component';
 import { FormsModule } from '@angular/forms';
 import { BsDatepickerModule } from 'ngx-bootstrap/datepicker';
-import { Employee } from './Model/employee.model';
-import { Department } from './Model/department.model';
+
 
 
 const appRoutes: Routes = [
@@ -22,8 +21,6 @@ const appRoutes: Routes = [
     AppComponent,
     ListEmployeesComponent,
     CreateEmployeeComponent,
-    Employee,
-    Department
   ],
   imports: [
     BrowserModule,
